@@ -30,7 +30,7 @@ for (i in expos) {
 
 IQR_table$IQR <- IQR_table$Q3 - IQR_table$Q1
 
-#Guardar tabla IQR
+#Save IQR table
 write.xlsx(IQR_table, "IQR_table.xlsx")
 
 #############################
